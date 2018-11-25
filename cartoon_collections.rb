@@ -8,7 +8,7 @@ end
 def summon_captain_planet(catchphrase)
   catchprase.collect do |phrase|
       puts "#{phrase.upcase}!"
-    puts 
+    end 
 end
 
 def long_planeteer_calls# code an argument here
