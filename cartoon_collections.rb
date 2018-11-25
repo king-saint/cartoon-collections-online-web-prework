@@ -23,7 +23,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
     if ingredients.include? (cheese)
       return cheese
     else
-      nil
+      return nil
   end
  end
 end
