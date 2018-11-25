@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(catchphrase)
   catchprase.collect do |phrase|
-      puts "#{phrase.upcase}!"
+      "#{phrase.upcase}!"
     end 
 end
 
