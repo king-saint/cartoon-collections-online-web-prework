@@ -6,7 +6,8 @@ def roll_call_dwarves(dwarves_list)
 end
 
 def summon_captain_planet(catchphrase)
-  catchprase.each do |phrase|
+  catchprase.collect do |phrase|
+      puts "#{phrase.upcase}!"
     puts 
 end
 
