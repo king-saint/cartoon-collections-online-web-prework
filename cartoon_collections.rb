@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves_list)
 end
 
 def summon_captain_planet(planeteer_calls)
-  array.collect do |phrase|
+  planeteer_calls.collect do |phrase|
       puts "#{phrase.capitalize}!"
     end 
 end
